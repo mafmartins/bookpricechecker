@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "bookpricechecker"
+version = "0.1.0"
+description = "A simple python script to check prices on The Book Depository"
+authors = ["mafmartins <marcio.af.martins@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+lxml = "^4.7.1"
+requests = "^2.27.1"
+
+[tool.poetry.dev-dependencies]
+black = "^21.12b0"
+flake8 = "^4.0.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
