@@ -3,7 +3,7 @@ A simple python script to check prices on thebookdepository.com.
 
 ## Requirements
 
-- Python >3.10
+- Python >3.*
 
 ## How to use
 
