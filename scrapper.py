@@ -35,7 +35,9 @@ page = requests.get(url)
 tree = html.fromstring(page.content)
 
 try:
-    price = tree.xpath('//span[@class="sale-price"]/text()')[0]
+    price = tree.xpath(
+        '//div[contains(@class, "item-price-wrap")]//span[@class="sale-price"]/text()'
+    )[0]
     price_float = float(re.findall(r"\d+\,\d+", price)[0].replace(",", "."))
 except IndexError:
     exit_fn(
