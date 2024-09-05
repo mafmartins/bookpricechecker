@@ -1,6 +1,8 @@
 # bookpricechecker
 A simple python script to check prices on thebookdepository.com.
 
+**This project no longer works because The Book Depository is dead.**
+
 ## Requirements
 
 - Python >3.*
